@@ -1,0 +1,40 @@
+owner: basel5001
+repo: upptime-status
+
+sites:
+  - name: Portfolio
+    url: https://basel5001.github.io
+  - name: GitHub Profile
+    url: https://github.com/basel5001
+  - name: Google DNS
+    url: https://dns.google
+    method: GET
+    expectedStatusCodes:
+      - 200
+      - 301
+      - 302
+
+status-website:
+  cname: ""
+  baseUrl: /upptime-status
+  theme: dark
+  navbar:
+    - title: Status
+      href: /
+    - title: GitHub
+      href: https://github.com/basel5001
+  name: XOps Status Page
+
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 1 * *"
+  updates: "*/5 * * * *"
+
+i18n:
+  activeIncidents: Active Incidents
+  allSystemsOperational: All Systems Operational
+  incidentReport: "Incident Report for {{date}}"
+  noIncidents: No incidents reported.
