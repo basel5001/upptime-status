@@ -31,4 +31,4 @@ Edit `.upptimerc.yml` and add under `sites:`:
 
 ## License
 
-MIT
+Licensed under the Business Source License 1.1. See [LICENSE](./LICENSE). Non-production use is allowed, and the license converts to MIT on 2031-08-15.
